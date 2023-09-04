@@ -16,13 +16,12 @@ public class listPedidos extends AdmiPedidos {
     public static List<AdmiPedidos> listpedidos = new ArrayList<>(); 
    
    public void agregar(String descripcion){
-      
-    listpedidos.add(pedidos);
+      listpedidos.add();
     
    }
    
    public void eliminar(){
-   listpedidos.remove(pedidos);
+   listpedidos.remove();
    }
    
    public  int buscar(int numero){
