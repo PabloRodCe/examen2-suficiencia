@@ -10,17 +10,17 @@ package ControlPedidos;
  */
 public class controlador extends listPedidos{
     
-    public AdmiPedidos crearPedido(){
+    public String crearPedido(){
        int i;
         this.buscar(numero);
         this.agregar(descripcion);
-        if (numero! = i) {
-            
+        if (numero == i) {
+            System.out.println("el numero no ha cambiado");
         } else {
-            i++;
+            System.out.println("el numero es " + i++);
         }
-        listpedidos.add();
-     return 
+        return crearPedido();
+     
     }
     
 }

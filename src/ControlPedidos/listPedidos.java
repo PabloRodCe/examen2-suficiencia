@@ -13,23 +13,28 @@ import java.util.List;
  */
 public class listPedidos extends AdmiPedidos {
     
-    public static List<AdmiPedidos> listpedidos = new ArrayList<>(); 
-   
-   public void agregar(String descripcion){
-      listpedidos.add();
+    public static List<AdmiPedidos> listpedidos = new ArrayList<>();
     
-   }
-   
-   public void eliminar(){
-   listpedidos.remove();
-   }
-   
-   public  int buscar(int numero){
-       for (int i = 0; i == numero;) {
-           if (i== numero) {
-               
-           }
-       }
-       return numero;
-   }
+    public static List<AdmiPedidos> getListpedidos() {
+        return listpedidos;
+    }
+    
+    public void agregar(AdmiPedidos listPedidos) {
+        
+        listpedidos.add(listPedidos);
+        
+    }
+    
+    public void eliminar(AdmiPedidos listPedidos) {
+        listpedidos.remove(listPedidos);
+    }
+    
+    public int buscar(int numero) {
+        for (int i = 0; i == numero;) {
+            if (i == numero) {
+                
+            }
+        }
+        return numero++;
+    }
 }

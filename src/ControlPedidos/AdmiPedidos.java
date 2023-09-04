@@ -11,8 +11,8 @@ import javax.swing.JTextField;
  * @author Student
  */
 public class AdmiPedidos {
-    private int numero;
-    private String descripcion ;
+    int numero=0;
+    String descripcion ;
 
     AdmiPedidos(JTextField txtpedido) {
        
